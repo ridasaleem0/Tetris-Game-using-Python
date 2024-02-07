@@ -72,8 +72,8 @@ The file denotes the different possible shapes by letter. The letters used are Q
   </tr>
 </table>
 
-Your program does not need to validate its input and can assume that there will be no illegal characters
-You do not have to account for shape rotation in your model. The pieces will always have the orientations shown above.
+The program does not validate its input for now and assumes that there will be no illegal characters
+Moreover, the script does not account for shape rotation in your model. The pieces will always have the orientations shown above.
 Each line of the input file is a comma-separated list.
 Each entry in the list is a single letter (from the set above) and a single-digit integer. The integer represents the left-most column of the grid that the shape occupies, starting from zero.
 The grid of the game space is 10 units wide. For each line of the file, the grid’s initial state is empty.
@@ -131,7 +131,7 @@ This repository contains a simple implementation of the classic Tetris game in P
 
 ## Dependencies
 The Tetris game has the following dependencies:
-- Python (version 3)
+- Python (version 3.x)
 
 ## Installation
 To run the Tetris game, follow these steps:
