@@ -124,19 +124,6 @@ A line in the input file contains `T1,Z3,I4`.
 
 No rows are filled, so the output for this sequence is “4”.
 
-## Evaluation criteria
-
-The solution will be evaluated on the following criteria:
-
-- **Correctness**: does the program produce the correct output
-- **Clarity**: how easy it is for others to understand and work with your code
-- **Extensibility**: how easy would it be to extend your program with additional functionality, e.g. additional movement, new pieces, etc.
-- **Algorithmic complexity**: how does the performance of the submission scale with
-  regards to its input
-- **Efficiency**: how efficient is the solution. Our test suite includes test cases that might not fit entirely into memory. The solution is expected to handle multi-gigabyte inputs without running itself out of memory.
-
-
-
 # Solution Instructions - Tetris Game
 
 ## Overview
