@@ -2,7 +2,6 @@
 
 ## Problem description
 
-You are to write a simplified Tetris engine.
 The engine models a grid that pieces enter from top and come to rest at the bottom, as if pulled down by gravity. Each piece is made up of four unit squares.
 No two unit squares occupy the same space in the grid at the same time.
 The pieces are rigid, and come to rest as soon as any part of a piece contacts the bottom of the grid or any resting block. As in Tetris, whenever an entire row of the grid is filled, it disappears, and any higher rows drop into the vacated space without any change to the internal pattern of blocks in any row.
